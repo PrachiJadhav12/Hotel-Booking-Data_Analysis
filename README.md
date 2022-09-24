@@ -21,39 +21,70 @@ arrival_date_week_number: week number of arrival date.
 arrival_date_day_of_month: Day of month of arrival date
 
 stays_in_weekend_nights: No. of weekend nights spent in a hotel
+
 stays_in_week_nights: No. of weeknights spent in a hotel
+
 adults: No. of adults in single booking record.
+
 children: No. of children in single booking record.
+
 babies: No. of babies in single booking record.
+
 meal: Type of meal chosen
+
 country: Country of origin of customers (as mentioned by them)
+
 market_segment: What segment via booking was made and for what purpose.
+
 distribution_channel: Via which medium booking was made.
+
 is_repeated_guest: Whether the customer has made any booking before(0 for No and 1 for Yes)
+
 previous_cancellations: No. of previous canceled bookings.
+
 previous_bookings_not_canceled: No. of previous non-canceled bookings.
+
 reserved_room_type: Room type reserved by a customer.
+
 assigned_room_type: Room type assigned to the customer.
+
 booking_changes: No. of booking changes done by customers
+
 deposit_type: Type of deposit at the time of making a booking (No deposit/ Refundable/ No refund)
+
 agent: Id of agent for booking
+
 company: Id of the company making a booking
+
 days_in_waiting_list: No. of days on waiting list.
+
 customer_type: Type of customer(Transient, Group, etc.)
+
 adr: Average Daily rate.
+
 required_car_parking_spaces: No. of car parking asked in booking
+
 total_of_special_requests: total no. of special request.
+
 reservation_status: Whether a customer has checked out or canceled,or not showed
+
 reservation_status_date: Date of making reservation status.
+
 # Tools and Libraries Used:
 We have used Python 3 to its following packages:
 
 Pandas
+
 Numpy
+
 Matplotlib
+
 Seaborn
+
 Folium
+
 Plotly Express
+
 # Data Cleaning and Feature Engineering:
 (1) Removing Duplicate rows:
 
@@ -68,15 +99,21 @@ Changed data type of children, company, agent to int type.
 (4) Creating new columns:
 
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
-Created new column total_people by adding adults+children+babies.
+Created new column total_people by adding adults+children+babies
+
 # Exploratory Data Analysis:
 Exploratory Data Analysis is done on the below mentioned categories:-
 
 Univariate Analysis
+
 Hotel wise Analysis
-Distribution channel wise Analysis
+
+Distribution channel wise 
+
 Booking cancellation Analysis
+
 Customer Centric Analysis
+
 # Conculsion:
 City Hotel is most preferred by guests and thus city hotels has got maximum number of bookings. So from business perspective, we should target those months between May to Aug.
 
@@ -111,6 +148,7 @@ Those who were not assigned same room as reserved does not affects adr. From pie
 2016 seems to be year where hotel booking is at its highest and it seems summer period is a peak for hotel booking.Trend for the arrival day of month has been roller coaster.
 
 The majority of the stays are over the weekday's night so target should be given and on the other day of the month it was random.
+
 # Challenges Faced:
 There was a lot of duplicate data.
 Data was present in wrong datatype format.
