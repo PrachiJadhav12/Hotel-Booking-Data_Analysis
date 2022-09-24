@@ -7,12 +7,19 @@ We are provided with a hotel bookings dataset that contains booking information 
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 hotel: Name of hotel ( City or Resort)
+
 is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
+
 lead_time: time (in days) between booking transaction and actual arrival.
+
 arrival_date_year: Year of arrival
+
 arrival_date_month: month of arrival
+
 arrival_date_week_number: week number of arrival date.
+
 arrival_date_day_of_month: Day of month of arrival date
+
 stays_in_weekend_nights: No. of weekend nights spent in a hotel
 stays_in_week_nights: No. of weeknights spent in a hotel
 adults: No. of adults in single booking record.
