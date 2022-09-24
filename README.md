@@ -93,12 +93,14 @@ All duplicate rows were dropped.
 
 Null values in columns companyand agent were replaced by 0.
 Null values in column country were replaced by others.
+
 (3) Converting columns to appropriate data types:
 
 Changed data type of children, company, agent to int type.
 (4) Creating new columns:
 
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
+
 Created new column total_people by adding adults+children+babies
 
 # Exploratory Data Analysis:
