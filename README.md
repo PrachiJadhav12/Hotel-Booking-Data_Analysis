@@ -1,5 +1,6 @@
 # EDA-Hotel-booking-data_analysis
 Useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
+This Project was done with group named 'Data Scientists' during training in Alma Better. Group members are: Prachi Jadhav, Dr. R Kumar, Shubham Tiwari and Dileep Rawat.
 # Objective:
 The Hotel Booking demand dataset (attached) contains booking information for a city hotel and a resort hotel. It includes information such as booking time, length of stay, number of adults, children/babies, number of available parking spaces, among other things.
 We are provided with a hotel bookings dataset that contains booking information for a city hotel and a resort hotel. It includes information such as booking time, length of stay, number of adults, children/babies, number of available parking spaces, among other things. Our main objective is perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
